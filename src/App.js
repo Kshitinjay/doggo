@@ -32,7 +32,7 @@ export default function App() {
 	  <h1>Frontend Developer Opportunity at Healthifyme | Task Round</h1>
     <div>
       <div className="selectContainer">
-        <label htmlFor="breed">Enter Breed</label>
+        <label htmlFor="breed">Enter Breed </label>
         <select name="" id="breedSelector"  onChange={handleBreed}>
           {mainData.map((elem,i)=>(
             <option value={elem}>{elem}</option>
@@ -40,7 +40,6 @@ export default function App() {
         </select>
       </div>
     </div>
-    <p>{breed}</p>
     <div>
     <img src={data.message} alt=""/>
     </div>
